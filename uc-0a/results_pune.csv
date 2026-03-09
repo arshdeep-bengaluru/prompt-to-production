@@ -1,0 +1,16 @@
+complaint_id,category,priority,reason,flag
+PM-202401,Pothole,Standard,"Mentioned 'pothole', mapped to Pothole.",
+PM-202402,Pothole,Urgent,"Mentioned 'pothole', mapped to Pothole.",
+PM-202406,Flooding,Standard,"Mentioned 'flood' or 'water', mapped to Flooding.",
+PM-202408,Flooding,Standard,"Mentioned 'flood' or 'water', mapped to Flooding.",
+PM-202410,Streetlight,Standard,"Mentioned 'light' or 'dark', mapped to Streetlight.",
+PM-202411,Streetlight,Urgent,"Mentioned 'light' or 'dark', mapped to Streetlight.",
+PM-202413,Waste,Standard,"Mentioned 'waste', 'garbage' or 'animal', mapped to Waste.",
+PM-202418,Noise,Standard,"Mentioned 'noise' or 'music', mapped to Noise.",
+PM-202419,Road Damage,Standard,"Mentioned 'crack' or 'sink', mapped to Road Damage.",
+PM-202420,Road Damage,Urgent,"Mentioned 'manhole', mapped to Road Damage.",
+PM-202427,Flooding,Standard,"Mentioned 'flood' or 'water', mapped to Flooding.",
+PM-202428,Waste,Standard,"Mentioned 'waste', 'garbage' or 'animal', mapped to Waste.",
+PM-202430,Streetlight,Standard,"Mentioned 'light' or 'dark', mapped to Streetlight.",
+PM-202433,Waste,Standard,"Mentioned 'waste', 'garbage' or 'animal', mapped to Waste.",
+PM-202446,Other,Urgent,Complaint lacks details to determine the specific issue.,NEEDS_REVIEW
