@@ -8,12 +8,17 @@
 **Step 1 — Fork and clone**
 Fork this repo to your GitHub account, then clone your fork locally.
 
-**Step 2 — Create your branch**
+**Step 2 — Create your branch — one branch for the entire session**
 Name it exactly:
 ```bash
 git checkout -b participant/[your-name]-[city]
 # Example: participant/arshdeep-pune
 ```
+
+> **One branch. All four UCs. The whole session.**
+> Do not create a new branch per UC — all your work goes into this single branch.
+> Your commit history is your evidence trail. Tutors read it in chronological order
+> to follow your CRAFT loop across UC-0A through UC-X.
 
 **Step 3 — Confirm your environment**
 ```bash
@@ -93,8 +98,11 @@ UC-0C Fix silent aggregation: no scope in enforcement → restricted to per-ward
 UC-X  Fix cross-doc blending: no single-source rule → added single-source attribution enforcement
 ```
 
-Minimum **4 commits** — one per UC.
+Minimum **4 commits** — one per UC — all on the same branch.
 Messages like `update`, `done`, `fix`, `wip`, `final` will be flagged during review.
+
+Your commit history tells the story of your CRAFT loop. A reviewer reading it in order
+should be able to see: what failed, what you changed, and why — for each UC.
 
 ---
 
